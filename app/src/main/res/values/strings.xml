@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Dental First</string>
+
+    <!-- Category chips -->
+    <string name="product_details_category_dental_materials">Стоматологические материалы</string>
+    <string name="product_details_category_processing_filling">Обработка и пломбирование</string>
+    <string name="product_details_category_oral_cavity">Ротовая полость</string>
+
+    <!-- Labels -->
+    <string name="product_details_label_new">Новинка</string>
+    <string name="product_details_label_discount_25">-25%</string>
+
+    <!-- Expiration -->
+    <string name="product_details_expiration_label">📅 Срок годности товара:</string>
+    <string name="product_details_expiration_12_months">12 месяцев</string>
+
+    <!-- Compare / actions -->
+    <string name="product_details_compare">Сравнить товар</string>
+    <string name="product_details_show_analogs">Показать аналоги</string>
+
+    <!-- Characteristics -->
+    <string name="product_details_characteristics_title">Характеристики</string>
+
+    <string name="product_details_sku_title">Артикул:</string>
+    <string name="product_details_sku_value">EgU6L7iSrd</string>
+
+    <string name="product_details_id_title">ID товара:</string>
+    <string name="product_details_id_value">223176</string>
+
+    <string name="product_details_manufacturer_title">Производитель:</string>
+    <string name="product_details_manufacturer_value">Омега-Дент</string>
+
+    <string name="product_details_country_title">Страна:</string>
+    <string name="product_details_country_value">Россия</string>
+
+    <!-- Tabs -->
+    <string name="product_details_tab_description">Описание товара</string>
+    <string name="product_details_tab_bought_with">С этим товаром покупают</string>
+
+    <string name="product_details_tab_description_content">Описание товара...</string>
+    <string name="product_details_tab_bought_with_content">С этим товаром покупают...</string>
+</resources>
