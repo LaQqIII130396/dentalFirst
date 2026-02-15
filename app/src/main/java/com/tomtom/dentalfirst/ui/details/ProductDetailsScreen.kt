@@ -54,6 +54,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -145,8 +146,38 @@ private fun ProductDetailsScreen(product: Product, onBackClick: () -> Unit) {
 }
 
 @Composable
-private fun ApologizeScreen(onBackClick: () -> Unit) {
+private fun ApologizeScreen(
+    onBackClick: () -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color(0xFFF6F6F6))
+            .windowInsetsPadding(WindowInsets.systemBars)
+            .padding(horizontal = 24.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
 
+        Text(
+            text = stringResource(R.string.product_details_apologize_screen),
+            style = MaterialTheme.typography.bodyLarge,
+            color = Color(0xFF6B6B6B),
+            textAlign = TextAlign.Center
+        )
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        Button(
+            onClick = onBackClick,
+            shape = RoundedCornerShape(16.dp),
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(52.dp)
+        ) {
+            Text(stringResource(R.string.product_details_apologize_screen_back_button))
+        }
+    }
 }
 
 @Composable
